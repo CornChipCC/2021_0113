@@ -1,3 +1,4 @@
+# 출처 : https://programmers.co.kr/learn/courses/30/lessons/77484
 # Q1 Answer template
 
 def solution(lottos, win_nums):
