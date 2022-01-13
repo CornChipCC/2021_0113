@@ -1,0 +1,20 @@
+# Q3 answer template
+
+def solution(store, customer):
+    answer = []
+    for i in range(len(customer)):
+        for j in range(len(store)):
+            if customer[i] == store[j] :
+                answer.append('yes')
+                break
+            else :
+                if j == len(store)-1 :
+                    answer.append('no')
+                continue
+            
+    return answer
+
+store = [1,2,3,7,8]
+customer = [1,5,8,4,6]
+answer = solution(store, customer)
+print(answer)
